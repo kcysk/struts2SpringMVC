@@ -6,5 +6,4 @@
 * 需要Action增加注解：@Controller @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE) @Struts2SpringMVCAction
 * Action 中service需要加@Autowired注解（也可以不加，我们额外做一步注入操作，目前这部分代码没有写）
 
-* 目前的代码不太具有通用性,部分代码属数字校园特殊写法
-		-- 2017.11.14
+* 目前的代码不太具有通用性
